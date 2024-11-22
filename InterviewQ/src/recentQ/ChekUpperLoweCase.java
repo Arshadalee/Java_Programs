@@ -7,14 +7,25 @@ public class ChekUpperLoweCase {
 		
 		String str="aaaBBccDDssKK";
 		char[] ch=str.toCharArray();
+		
+		char[]cv=new char[ch.length];
+		
 		for(int i=0;i<ch.length;i++) {
 			
 		if(Character.isUpperCase(ch[i])) {
-			Character.toLowerCase(ch[i]);
+			cv[i]=Character.toLowerCase(ch[i]);
 		}else {
-			Character.toUpperCase(ch[i]);
+			cv[i]=Character.toUpperCase(ch[i]);
 		}
 		}
+		
+		String convert= new String(cv);
+		
+		System.out.println(convert);
+		
+		
+		
+		
 
 	}
 
