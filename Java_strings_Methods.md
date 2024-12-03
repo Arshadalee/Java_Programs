@@ -5,10 +5,15 @@
       Returns the character at the specified index.
 ## 2.toCharArray(): 
     Converts the string to a character array.
-##3.codePointAt(int index): Returns the code point at the specified index.
-codePointBefore(int index): Returns the code point before the specified index.
-codePointCount(int beginIndex, int endIndex): Returns the number of code points between the specified indices.
-offsetByCodePoints(int index, int codePointOffset): Returns the index within this String that is offset from the given index by codePointOffset code points.   
+## 3.codePointAt(int index):
+      Returns the code point at the specified index.
+## 4.codePointBefore(int index):
+            Returns the code point before the specified index.
+## 5.codePointCount(int beginIndex, int endIndex):
+            Returns the number of code points between the specified indices.
+## 6.offsetByCodePoints(int index, int codePointOffset):
+            Returns the index within this String that is offset from the given index by codePointOffset code points.   
+            
 String Comparison:
 
 compareTo(String anotherString): Compares two strings lexicographically.
