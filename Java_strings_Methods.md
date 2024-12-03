@@ -14,12 +14,15 @@
 ## 6.offsetByCodePoints(int index, int codePointOffset):
             Returns the index within this String that is offset from the given index by codePointOffset code points.   
             
-String Comparison:
-
-compareTo(String anotherString): Compares two strings lexicographically.
-compareToIgnoreCase(String anotherString): Compares two strings lexicographically, ignoring case differences.   
-equals(Object obj): Compares this string to another object.
-equalsIgnoreCase(String anotherString): Compares two strings lexicographically, ignoring case differences.
+# String Comparison:
+## compareTo(String anotherString):
+Compares two strings lexicographically.
+## compareToIgnoreCase(String anotherString):
+Compares two strings lexicographically, ignoring case differences.   
+## equals(Object obj): 
+Compares this string to another object.
+## equalsIgnoreCase(String anotherString):
+Compares two strings lexicographically, ignoring case differences.
 Searching and Matching:
 
 contains(CharSequence s): Checks if a specified sequence of char values is a substring.
