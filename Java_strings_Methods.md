@@ -23,19 +23,20 @@ Compares two strings lexicographically, ignoring case differences.  
 Compares this string to another object.
 ## equalsIgnoreCase(String anotherString):
 Compares two strings lexicographically, ignoring case differences.
-Searching and Matching:
 
-contains(CharSequence s): Checks if a specified sequence of char values is a substring.
-endsWith(String suffix): Checks if a string ends with a specified suffix.
-indexOf(String str): Returns the index of the first occurrence of a specified substring.
-indexOf(String str, int fromIndex): Returns the index of the first occurrence of a specified substring, starting from a specified index.
-lastIndexOf(String str): Returns the index of the last occurrence of a specified substring.
-lastIndexOf(String str, int fromIndex): Returns the index of the last occurrence of a specified substring, searching backward starting from the specified index.
-matches(String regex): Tells whether or not this string matches a given regular expression.
-regionMatches(int toffset, String other, int ooffset, int len): Compares two strings for equality, starting at the specified offset.
-regionMatches(boolean ignoreCase, int toffset, String other, int ooffset, int len): Compares two strings for equality, starting at the specified offset, ignoring case differences.
-startsWith(String prefix): Checks if a string starts with a specified prefix.
-Modification and Transformation:
+# Searching and Matching:
+
+## contains(CharSequence s): Checks if a specified sequence of char values is a substring.
+## endsWith(String suffix): Checks if a string ends with a specified suffix.
+## indexOf(String str): Returns the index of the first occurrence of a specified substring.
+## indexOf(String str, int fromIndex): Returns the index of the first occurrence of a specified substring, starting from a specified index.
+## lastIndexOf(String str): Returns the index of the last occurrence of a specified substring.
+## lastIndexOf(String str, int fromIndex): Returns the index of the last occurrence of a specified substring, searching backward starting from the specified index.
+## matches(String regex): Tells whether or not this string matches a given regular expression.
+## regionMatches(int toffset, String other, int ooffset, int len): Compares two strings for equality, starting at the specified offset.
+## regionMatches(boolean ignoreCase, int toffset, String other, int ooffset, int len): Compares two strings for equality, starting at the specified offset, ignoring case differences.
+## startsWith(String prefix): Checks if a string starts with a specified prefix.
+# Modification and Transformation:
 
 concat(String str): Concatenates two strings.
 replace(char oldChar, char newChar): Replaces all occurrences of a specified character with another character.
