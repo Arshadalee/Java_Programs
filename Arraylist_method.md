@@ -22,10 +22,10 @@ Replaces the element at the specified position in the ArrayList with the specifi
 ## 8. arrayList.contains(Object o):
 Returns true if the ArrayList contains the specified element.
 
-9. arrayList.isEmpty():
+## 9. arrayList.isEmpty():
 Returns true if the ArrayList contains no elements.
 
-10. arrayList.clear():
+## 10. arrayList.clear():
 Removes all elements from the ArrayList.
 
 ## 11. arrayList.indexOf(Object o):
