@@ -48,19 +48,33 @@ Compares two strings for equality, starting at the specified offset, ignoring ca
 Checks if a string starts with a specified prefix.
 # Modification and Transformation:
 
-concat(String str): Concatenates two strings.
-replace(char oldChar, char newChar): Replaces all occurrences of a specified character with another character.
-replaceAll(String regex, String replacement): Replaces all occurrences of a regular expression with a replacement string.
-replaceFirst(String regex, String replacement): Replaces the first occurrence of a regular expression with a replacement string.
-split(String regex): Splits a string around matches of a given regular expression.
-subSequence(int beginIndex, int endIndex): Returns a new character sequence that is a subsequence of this sequence.
-substring(int beginIndex): Returns a new string that is a substring of this string, starting at the specified index.   
-substring(int beginIndex, int endIndex): Returns a new string that is a substring of this string, starting at the specified beginIndex and extending to the character at index endIndex - 1.   
-toLowerCase(): Converts a string to lowercase.
-toUpperCase(): Converts a string to uppercase.
-trim(): Removes leading and trailing whitespace.
+## concat(String str):
+Concatenates two strings.
+## replace(char oldChar, char newChar):
+Replaces all occurrences of a specified character with another character.
+## replaceAll(String regex, String replacement): 
+Replaces all occurrences of a regular expression with a replacement string.
+## replaceFirst(String regex, String replacement): 
+Replaces the first occurrence of a regular expression with a replacement string.
+## split(String regex): 
+Splits a string around matches of a given regular expression.
+## subSequence(int beginIndex, int endIndex):
+Returns a new character sequence that is a subsequence of this sequence.
+## substring(int beginIndex):
+Returns a new string that is a substring of this string, starting at the specified index.   
+## substring(int beginIndex, int endIndex):
+Returns a new string that is a substring of this string, starting at the specified beginIndex and extending to the character at index endIndex - 1.   
+## toLowerCase():
+Converts a string to lowercase.
+## toUpperCase(): 
+Converts a string to uppercase.
+## trim():
+Removes leading and trailing whitespace.
 Other Useful Methods:
 
-isEmpty(): Checks if a string is empty.
-length(): Returns the length of a string.
-valueOf(various types): Converts various data types to strings.
+## isEmpty(): 
+Checks if a string is empty.
+## length(): 
+Returns the length of a string.
+## valueOf(various types):
+Converts various data types to strings.
