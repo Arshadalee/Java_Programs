@@ -10,13 +10,13 @@ Inserts the specified element at the specified position in the ArrayList.
 ## 4. arrayList.remove(int index):
 Removes the element at the specified position in the ArrayList.
 
-5. arrayList.remove(Object o):
+## 5. arrayList.remove(Object o):
 Removes the first occurrence of the specified element from the ArrayList, if it is present.
 
-6. arrayList.get(int index):
+## 6. arrayList.get(int index):
 Returns the element at the specified position in the ArrayList.
 
-7. arrayList.set(int index, E element):
+## 7. arrayList.set(int index, E element):
 Replaces the element at the specified position in the ArrayList with the specified element.
 
 ## 8. arrayList.contains(Object o):
