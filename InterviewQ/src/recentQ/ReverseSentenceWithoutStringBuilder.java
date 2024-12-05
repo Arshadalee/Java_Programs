@@ -7,6 +7,8 @@ public class ReverseSentenceWithoutStringBuilder {
 		
 		String str="hello world arshad";
 		String []arr=str.split(" ");
+		//emtpy string
+		
 		
 		String rvs[]=new String[arr.length];
 		
@@ -19,8 +21,8 @@ public class ReverseSentenceWithoutStringBuilder {
 			rvs[i]=new String(ch);
 		}
 		
-		String result=String.join(" " , rvs);
-		System.out.println(result);
+		String revserStringresult=String.join(" " , rvs);
+		System.out.println(revserStringresult);
 	}
 
 }
