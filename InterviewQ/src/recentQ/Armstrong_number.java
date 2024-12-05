@@ -13,7 +13,7 @@ public class Armstrong_number {
 
 		int number=Onumber;
 		int p=String.valueOf(Onumber).length();
-
+System.out.println("value of p"+p);
 		while(Onumber!=0) {
 			int reminder=Onumber%10;
 			result+=Math.pow(reminder,p);
