@@ -1,4 +1,4 @@
-# 1. Common Map Methods in Java
+# 1. Common Map Methods in Java.
 ## 1.1. put(K key, V value)
 Adds a key-value pair to the map. If the key already exists, the value will be updated.
 java
