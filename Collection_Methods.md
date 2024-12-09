@@ -1,8 +1,7 @@
 ## 1. Sorting
 Collections.sort(List<T> list): Sorts the specified list into ascending order according to the natural ordering of its elements.
 
-java
-#### Copy code
+####  code
 import java.util.*;
 
 public class CollectionsSortExample {
