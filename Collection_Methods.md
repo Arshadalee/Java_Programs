@@ -15,7 +15,7 @@ public class CollectionsSortExample {
 Collections.sort(List<T> list, Comparator<? super T> c): Sorts the specified list into ascending order according to the order induced by the specified comparator.
 
 java
-#### Copy code
+####  code
 import java.util.*;
 
 public class CollectionsSortExample {
@@ -29,7 +29,7 @@ public class CollectionsSortExample {
 Collections.reverse(List<?> list): Reverses the order of the elements in the specified list.
 
 java
-#### Copy code
+####  code
 import java.util.*;
 
 public class CollectionsReverseExample {
@@ -42,8 +42,7 @@ public class CollectionsReverseExample {
 ## 3. Shuffling
 Collections.shuffle(List<?> list): Randomly permutes the elements in the specified list.
 
-java
-Copy code
+###  code
 import java.util.*;
 
 public class CollectionsShuffleExample {
@@ -56,8 +55,8 @@ public class CollectionsShuffleExample {
 ## 4. Searching
 Collections.binarySearch(List<? extends Comparable<? super T>> list, T key): Searches for the specified object in the sorted list using the binary search algorithm. The list must be sorted before applying this method.
 
-java
-#### Copy code
+
+#### code
 import java.util.*;
 
 public class CollectionsBinarySearchExample {
@@ -69,9 +68,7 @@ public class CollectionsBinarySearchExample {
 }
 ## 5. Frequency Count
 Collections.frequency(Collection<?> c, Object o): Returns the number of occurrences of the specified element in the collection.
-
-java
-#### Copy code
+#### code
 import java.util.*;
 
 public class CollectionsFrequencyExample {
