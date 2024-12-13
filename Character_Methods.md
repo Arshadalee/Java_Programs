@@ -1,7 +1,7 @@
 # 1. isLetter(char ch)
-Checks if the given character is a letter.
+## Checks if the given character is a letter.
 
-##
+
 public class CharacterMethods {
     public static void main(String[] args) {
         char ch = 'A';
@@ -9,7 +9,7 @@ public class CharacterMethods {
     }
 }
 # 2. isDigit(char ch)
-Checks if the given character is a digit.
+## Checks if the given character is a digit.
 
 ##
 public class CharacterMethods {
@@ -19,7 +19,7 @@ public class CharacterMethods {
     }
 }
 # 3. isWhitespace(char ch)
-Checks if the given character is a whitespace character.
+## Checks if the given character is a whitespace character.
 
 ##
 public class CharacterMethods {
@@ -29,7 +29,7 @@ public class CharacterMethods {
     }
 }
 # 4. isUpperCase(char ch)
-Checks if the given character is an uppercase letter.
+## Checks if the given character is an uppercase letter.
 
 ##
 public class CharacterMethods {
@@ -39,7 +39,7 @@ public class CharacterMethods {
     }
 }
 # 5. isLowerCase(char ch)
-Checks if the given character is a lowercase letter.
+## Checks if the given character is a lowercase letter.
 
 ##
 public class CharacterMethods {
@@ -49,7 +49,7 @@ public class CharacterMethods {
     }
 }
 # 6. toUpperCase(char ch)
-Converts the given character to uppercase.
+## Converts the given character to uppercase.
 
 ##
 public class CharacterMethods {
@@ -59,7 +59,7 @@ public class CharacterMethods {
     }
 }
 # 7. toLowerCase(char ch)
-Converts the given character to lowercase.
+## Converts the given character to lowercase.
 ##
 public class CharacterMethods {
     public static void main(String[] args) {
@@ -68,7 +68,7 @@ public class CharacterMethods {
     }
 }
 # 8. isAlphabetic(int codePoint)
-Checks if the character (represented by Unicode code point) is alphabetic.
+## Checks if the character (represented by Unicode code point) is alphabetic.
 
 ##
 public class CharacterMethods {
@@ -78,7 +78,7 @@ public class CharacterMethods {
     }
 }
 # 9. isDefined(char ch)
-Checks if the given character is defined in Unicode.
+## Checks if the given character is defined in Unicode.
 
 ##
 public class CharacterMethods {
@@ -88,7 +88,7 @@ public class CharacterMethods {
     }
 }
 # 10. isLetterOrDigit(char ch)
-Checks if the character is either a letter or a digit.
+## Checks if the character is either a letter or a digit.
 
 ##
 public class CharacterMethods {
@@ -98,7 +98,7 @@ public class CharacterMethods {
     }
 }
 # 11. getNumericValue(char ch)
-Returns the numeric value of the character if it is a digit or a numeric letter.
+## Returns the numeric value of the character if it is a digit or a numeric letter.
 
 ##
 public class CharacterMethods {
@@ -108,7 +108,7 @@ public class CharacterMethods {
     }
 }
 # 12. isTitleCase(char ch)
-Checks if the character is a titlecase character.
+## Checks if the character is a titlecase character.
 ##
 public class CharacterMethods {
     public static void main(String[] args) {
@@ -117,7 +117,7 @@ public class CharacterMethods {
     }
 }
 # 13. toTitleCase(char ch)
-Converts the character to titlecase if applicable.
+## Converts the character to titlecase if applicable.
 
 ##
 public class CharacterMethods {
@@ -127,7 +127,7 @@ public class CharacterMethods {
     }
 }
 # 14. charCount(int codePoint)
-Returns the number of char values needed to represent the specified Unicode code point.
+## Returns the number of char values needed to represent the specified Unicode code point.
 
 ##
 public class CharacterMethods {
@@ -137,7 +137,7 @@ public class CharacterMethods {
     }
 }
 # 15. toChars(int codePoint)
-Converts a Unicode code point into a char array.
+## Converts a Unicode code point into a char array.
 
 ## 
 public class CharacterMethods {
