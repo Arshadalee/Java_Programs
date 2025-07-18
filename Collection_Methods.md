@@ -7,23 +7,23 @@ import java.util.*;
 public class CollectionsSortExample {<br/>
     public static void main(String[] args) {<br/>
         List<Integer> list = new ArrayList<>(Arrays.asList(5, 3, 8, 1, 7));<br/>
-        Collections.sort(list);< br / >
+        Collections.sort(list);<<br/>
         System.out.println("Sorted List: " + list);  // Output: [1, 3, 5, 7, 8]<br/>
-    }
-}
+    }<br/>
+}<br/>
 Collections.sort(List<T> list, Comparator<? super T> c): Sorts the specified list into ascending order according to the order induced by the specified comparator.< br / >
 
 java
 ####  code
-import java.util.*;
+import java.util.*;<br/>
 
-public class CollectionsSortExample {
-    public static void main(String[] args) {
-        List<String> list = new ArrayList<>(Arrays.asList("Banana", "Apple", "Cherry", "Date"));
-        Collections.sort(list, Comparator.reverseOrder());
-        System.out.println("Sorted List (Descending): " + list);  // Output: [Date, Cherry, Banana, Apple]
-    }
-}
+public class CollectionsSortExample {<br/>
+    public static void main(String[] args) {<br/>
+        List<String> list = new ArrayList<>(Arrays.asList("Banana", "Apple", "Cherry", "Date"));<br/>
+        Collections.sort(list, Comparator.reverseOrder());<br/>
+        System.out.println("Sorted List (Descending): " + list);  // Output: [Date, Cherry, Banana, Apple]<br/>
+    }<br/>
+}<br/>
 ## 2. Reversing
 Collections.reverse(List<?> list): Reverses the order of the elements in the specified list.
 
