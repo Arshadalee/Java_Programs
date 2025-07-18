@@ -4,11 +4,11 @@ Collections.sort(List<T> list): Sorts the specified list into ascending order ac
 #### code
 import java.util.*;
 
-public class CollectionsSortExample {< br / >
-    public static void main(String[] args) {< br / >
-        List<Integer> list = new ArrayList<>(Arrays.asList(5, 3, 8, 1, 7));< br / >
+public class CollectionsSortExample {<br/>
+    public static void main(String[] args) {<br/>
+        List<Integer> list = new ArrayList<>(Arrays.asList(5, 3, 8, 1, 7));<br/>
         Collections.sort(list);< br / >
-        System.out.println("Sorted List: " + list);  // Output: [1, 3, 5, 7, 8]< br / >
+        System.out.println("Sorted List: " + list);  // Output: [1, 3, 5, 7, 8]<br/>
     }
 }
 Collections.sort(List<T> list, Comparator<? super T> c): Sorts the specified list into ascending order according to the order induced by the specified comparator.< br / >
